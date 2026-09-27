@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "run_id": "20260927T185614-88c8cc58",
+  "run_id": "20260927T193237-a5d8d1f4",
   "schools": {
     "schema_version": 1,
     "generated_from": "data/sources.yaml",
-    "source_sha256": "b852e7f7b0ee3845e17443bf112c83a25a61b18c75b13542737b8bf45f135dc0",
+    "source_sha256": "901dd4bce0577165eb83be58caa8cfa5de87240f21ba604488a43743ec69faf6",
     "reviewed_at": "2026-09-24",
     "regions": [
       "华北",
@@ -19,9 +19,9 @@
       "navigation_total": 165,
       "navigation_link_total": 163,
       "navigation_public_readable_total": 93,
-      "crawler_target_total": 37,
-      "crawler_active_total": 35,
-      "crawler_success_total": 35,
+      "crawler_target_total": 39,
+      "crawler_active_total": 37,
+      "crawler_success_total": 37,
       "crawler_run_status": "partial",
       "pilot_candidate_total": 15,
       "p0_total": 115,
@@ -2065,8 +2065,8 @@
           "method": "入口HTTP GET及官方来源核对；不等于浏览器交互验收或活动采集成功。",
           "response_sha256": "6e4eee9aaf64249504d5751e513471769c56e5f5c476dc3caa68f70fa530f24b"
         },
-        "crawler_enabled": false,
-        "crawler_status": "pending",
+        "crawler_enabled": true,
+        "crawler_status": "active",
         "pilot_candidate": false,
         "campus_entries": null
       },
@@ -2099,8 +2099,8 @@
           "method": "入口HTTP GET及官方来源核对；不等于浏览器交互验收或活动采集成功。",
           "response_sha256": "3ba8375f3334f9ad47f39f48c364cb554ff7af90e89f70e1ce7f34f6a9038bac"
         },
-        "crawler_enabled": false,
-        "crawler_status": "pending",
+        "crawler_enabled": true,
+        "crawler_status": "active",
         "pilot_candidate": true,
         "campus_entries": null
       },
@@ -6378,20 +6378,20 @@
   "events": {
     "schema_version": 1,
     "timezone": "Asia/Shanghai",
-    "run_id": "20260927T185614-88c8cc58",
-    "generated_at": "2026-09-27T18:57:55+08:00",
+    "run_id": "20260927T193237-a5d8d1f4",
+    "generated_at": "2026-09-27T19:34:27+08:00",
     "window": {
       "today": "2026-09-27",
       "tomorrow": "2026-09-28",
       "through": "2026-10-04",
-      "published_after": "2026-09-24T18:56:14+08:00",
+      "published_after": "2026-09-24T19:32:37+08:00",
       "date_only_publication_from": "2026-09-25"
     },
     "summary": {
-      "total": 273,
-      "today": 8,
-      "tomorrow": 128,
-      "next_7_days": 272
+      "total": 297,
+      "today": 9,
+      "tomorrow": 143,
+      "next_7_days": 296
     },
     "events": [
       {
@@ -6418,8 +6418,8 @@
         "target_students": null,
         "id": "bd2d9b5f8ec3980050b5ae67",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -6445,8 +6445,8 @@
         "target_students": null,
         "id": "1be61d0cde7e99e6525f5d7b",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010559",
@@ -6472,8 +6472,8 @@
         "target_students": null,
         "id": "6d116f1997695a2927a1461f",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -6499,8 +6499,8 @@
         "target_students": null,
         "id": "f29b303a251dddcff7dcfe4b",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -6526,8 +6526,8 @@
         "target_students": null,
         "id": "7fb6d081c33e75b7748cd53f",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -6553,8 +6553,35 @@
         "target_students": null,
         "id": "211e09af0ec213924d483eae",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "广东领益智造股份有限公司",
+        "company_name": null,
+        "venue": "校外空中宣讲会（https://mp.weixin.qq.com/s/-iug3V3PMk5yOEYcdCn3Vw）",
+        "source_url": "https://tj91.tongji.edu.cn/f/recruitmentFair/show?recruitmentFairId=588c0fccc319473c9b4e4aff736b059c",
+        "source_event_id": "ff:588c0fccc319473c9b4e4aff736b059c",
+        "event_mode": "线上",
+        "event_date": "2026-09-21",
+        "event_end_date": "2026-10-10",
+        "start_time": "15:39",
+        "end_time": "15:39",
+        "published_at": null,
+        "event_type": "空中宣讲",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "670bfd36d020fc87c484abf7",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -6580,8 +6607,8 @@
         "target_students": null,
         "id": "187464042063db76d9284e22",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -6634,8 +6661,8 @@
         "target_students": null,
         "id": "c95e31f5a8bceb011a3868e9",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -6661,8 +6688,35 @@
         "target_students": null,
         "id": "4e2e6c3aa34b15ec5257adab",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
+      },
+      {
+        "school_id": "cn-4142010504",
+        "school_name": "华中农业大学",
+        "province": "湖北省",
+        "city": "武汉市",
+        "region": "华中",
+        "title": "中国水利水电第四工程局有限公司",
+        "company_name": null,
+        "venue": "大学生活动中心103",
+        "source_url": "https://hzau.91wllm.cn/teachin/view/id/251318",
+        "source_event_id": "teachin:251318",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "51958228ea283f332abbfca5",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -6688,8 +6742,8 @@
         "target_students": null,
         "id": "24a87f0540fd527e7f6f6716",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -6715,8 +6769,8 @@
         "target_students": null,
         "id": "35e3147b990f35cf0a50ea1b",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -6742,8 +6796,8 @@
         "target_students": null,
         "id": "ed50c4390a3dce9f21d84fd7",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010542",
@@ -6769,8 +6823,8 @@
         "target_students": null,
         "id": "1a5f227daa34255f493fb4d0",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -6796,8 +6850,8 @@
         "target_students": null,
         "id": "ec9b2ccc944656f80eac629b",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -6823,8 +6877,8 @@
         "target_students": null,
         "id": "de77ad8307929e9254ee1a18",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -6850,8 +6904,8 @@
         "target_students": null,
         "id": "a46a4a3cca0ea03f815d63ee",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -6877,8 +6931,8 @@
         "target_students": null,
         "id": "ed7fdcaa5d20bb92767ae3ca",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -6904,8 +6958,8 @@
         "target_students": null,
         "id": "7e1b20f1eb9f3d1776d96368",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010718",
@@ -6931,8 +6985,62 @@
         "target_students": null,
         "id": "a0bdc1089d0ab70f30bad980",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "中共贵州省委组织部",
+        "company_name": null,
+        "venue": "四平校区-经纬楼三楼演讲厅",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=33796;xjhbh=5BAA91BA0743703FE0631F84A8C07527#/xjhxq",
+        "source_event_id": "ff:5BAA91BA0743703FE0631F84A8C07527",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "d0de83bb34d9111afcf5d336",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "国家开发银行新疆维吾尔自治区分行",
+        "company_name": null,
+        "venue": "四平校区-大学生活动中心2号楼1楼会议室",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=a9d54160-9f58-11e2-bfbb-99cf17c4aa73;xjhbh=9fa0fc42f76a41678be7229a1604ead2#/xjhxq",
+        "source_event_id": "ff:9fa0fc42f76a41678be7229a1604ead2",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "f9efb69966d39b583e8b6d98",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -6958,8 +7066,8 @@
         "target_students": null,
         "id": "0a200f0367351f0181c58004",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -6985,8 +7093,8 @@
         "target_students": null,
         "id": "5f4bc8cd4ebb9848d065ea9e",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -7012,8 +7120,8 @@
         "target_students": null,
         "id": "93dd67b8837d0362273fbe70",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -7039,8 +7147,8 @@
         "target_students": null,
         "id": "ba9fd70d00a56b3d0b894b8b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -7066,8 +7174,8 @@
         "target_students": null,
         "id": "ef194f88ad576a91c6888a88",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -7093,8 +7201,8 @@
         "target_students": null,
         "id": "780abfa9fd0473ec463d8334",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4153010673",
@@ -7120,8 +7228,8 @@
         "target_students": null,
         "id": "a85b368b33b21a751cc61a66",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -7147,8 +7255,8 @@
         "target_students": null,
         "id": "c3206206eb74256f48b34c61",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -7174,8 +7282,8 @@
         "target_students": null,
         "id": "481783e8e85fd6963aa759e6",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -7201,8 +7309,8 @@
         "target_students": null,
         "id": "70afa128bd0fa7e7acb5e253",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -7228,8 +7336,8 @@
         "target_students": null,
         "id": "034f9e447d2b297c731823d1",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010590",
@@ -7255,8 +7363,8 @@
         "target_students": null,
         "id": "04426d8a56ae3e45f881f29c",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7282,8 +7390,8 @@
         "target_students": null,
         "id": "4c6915fb31cc78106dde6576",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -7309,8 +7417,8 @@
         "target_students": null,
         "id": "0f6f3cc57c4109a76837db6e",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -7336,8 +7444,8 @@
         "target_students": null,
         "id": "18f56230fe65a3fc418779e4",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -7363,8 +7471,8 @@
         "target_students": null,
         "id": "344332432ed75cfa6c0cab1f",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -7390,8 +7498,8 @@
         "target_students": null,
         "id": "39ea794e40d53795ab568793",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -7417,8 +7525,62 @@
         "target_students": null,
         "id": "eac579daa6e313b054147742",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "北京理想汽车有限公司",
+        "company_name": null,
+        "venue": "学生中心D200多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/238026655422091264",
+        "source_event_id": "sjtu:238026655422091264",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "1e51df73af0106256ed8622d",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "南京电子工程研究所（中国电子科技集团公司第二十八研究所）",
+        "company_name": null,
+        "venue": "学生中心C202多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/235782255908360192",
+        "source_event_id": "sjtu:235782255908360192",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "d1f09e2f53e1656f5aa02921",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7444,8 +7606,8 @@
         "target_students": null,
         "id": "442f7d64893ab6fb6074a30b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7471,8 +7633,8 @@
         "target_students": null,
         "id": "71d6e0ce9015a660554e738d",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7498,8 +7660,8 @@
         "target_students": null,
         "id": "e07fa44bf5803a907c7d8eaf",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7525,8 +7687,8 @@
         "target_students": null,
         "id": "e528c6c0ff323cc8eed50c1c",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -7552,8 +7714,8 @@
         "target_students": null,
         "id": "ba7d3ec0cde8bde01bd05dd8",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -7579,8 +7741,8 @@
         "target_students": null,
         "id": "65d540f1ddbb44337bb11161",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -7606,8 +7768,8 @@
         "target_students": null,
         "id": "abeb6ac54f8e34162470962c",
         "first_seen_at": "2026-09-26T14:43:28+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -7633,8 +7795,8 @@
         "target_students": null,
         "id": "081c6b6c18b865184de3fd26",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -7660,8 +7822,8 @@
         "target_students": null,
         "id": "390995a1f7c8fb516f97a2c7",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -7687,8 +7849,8 @@
         "target_students": null,
         "id": "b303b1b77ef76f808b9ee77f",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -7714,8 +7876,8 @@
         "target_students": null,
         "id": "069ee08926fc7fff81d7de6c",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -7741,8 +7903,8 @@
         "target_students": null,
         "id": "a6bc2f9f44dca51efec33058",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -7768,8 +7930,8 @@
         "target_students": null,
         "id": "cb957a4b3d4e11316f77b84b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -7795,8 +7957,8 @@
         "target_students": null,
         "id": "cd42af46448d952e9adbcd91",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -7822,8 +7984,8 @@
         "target_students": null,
         "id": "f05b3df373ae303a9c79f857",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4153010673",
@@ -7849,8 +8011,8 @@
         "target_students": null,
         "id": "cbabb52cd61dab676c3be1a5",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -7876,8 +8038,62 @@
         "target_students": null,
         "id": "3d05e6d7776ce6562835810e",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "中国农业银行股份有限公司上海市分行",
+        "company_name": null,
+        "venue": "四平校区-大学生活动中心2号楼1楼会议室",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=1117;xjhbh=3cae42ffe3dd4dba8cb3e8a49f318973#/xjhxq",
+        "source_event_id": "ff:3cae42ffe3dd4dba8cb3e8a49f318973",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "1c87dcf0b4f597402bc785e2",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "中车南京浦镇车辆有限公司",
+        "company_name": null,
+        "venue": "嘉定校区-艺嘉楼210",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=35929;xjhbh=9823b37a9c014b1c839074dc69b3bf7c#/xjhxq",
+        "source_event_id": "ff:9823b37a9c014b1c839074dc69b3bf7c",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "99ed8bd292983af146ce8192",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -7903,8 +8119,8 @@
         "target_students": null,
         "id": "87ffb3002aab458a260dcdca",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -7930,8 +8146,8 @@
         "target_students": null,
         "id": "9fb0174488f07f5f2aa9b695",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -7957,8 +8173,8 @@
         "target_students": null,
         "id": "042f981c5d769c43e1d45ecc",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -7984,8 +8200,8 @@
         "target_students": null,
         "id": "32ad158c0ac9f52edcd287eb",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -8011,8 +8227,8 @@
         "target_students": null,
         "id": "45530a3547b005da92b7ba3b",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -8038,8 +8254,8 @@
         "target_students": null,
         "id": "535e1abdebe2405745245448",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -8065,8 +8281,8 @@
         "target_students": null,
         "id": "dab256f01000dcf19e89df43",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -8092,8 +8308,8 @@
         "target_students": null,
         "id": "39894dfcb7e7bd839dafa6cb",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -8119,8 +8335,8 @@
         "target_students": null,
         "id": "caba668c033a943b49db3f0b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8146,8 +8362,8 @@
         "target_students": null,
         "id": "1231725570fb70460c1dab00",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8173,8 +8389,8 @@
         "target_students": null,
         "id": "42b60a51a45614c01c6e2dc0",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8200,8 +8416,8 @@
         "target_students": null,
         "id": "4bdc30b04326c9df91d60152",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8227,8 +8443,8 @@
         "target_students": null,
         "id": "4cbc64d7efeb413a7feb8654",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8254,8 +8470,8 @@
         "target_students": null,
         "id": "7cb4b4dbb900d7fbeb0122ea",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8281,8 +8497,8 @@
         "target_students": null,
         "id": "80b2b33e239fd564e3a97498",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -8308,8 +8524,8 @@
         "target_students": null,
         "id": "ff7d04db2f3f659719e338de",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010542",
@@ -8335,8 +8551,8 @@
         "target_students": null,
         "id": "2d28a6d518361b8eed2c2680",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010542",
@@ -8362,8 +8578,8 @@
         "target_students": null,
         "id": "941e103bb842e7e6f1696772",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -8389,8 +8605,8 @@
         "target_students": null,
         "id": "3b3f17809e59d76ed1ee2f5b",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010559",
@@ -8416,8 +8632,8 @@
         "target_students": null,
         "id": "7414d36c6a89cd61ec00076a",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4151010615",
@@ -8443,8 +8659,8 @@
         "target_students": null,
         "id": "11fd5497384c60194e9bf45d",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4151010615",
@@ -8470,8 +8686,8 @@
         "target_students": null,
         "id": "a4b9ab43f67611d32c23e339",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -8497,8 +8713,8 @@
         "target_students": null,
         "id": "81a53a966d7d877e0d300da8",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8524,8 +8740,8 @@
         "target_students": null,
         "id": "6781eec3d78ab7fc457934a0",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8551,8 +8767,8 @@
         "target_students": null,
         "id": "95703202a8e0485582baa56f",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8578,8 +8794,8 @@
         "target_students": null,
         "id": "96742e0b8953e850ea8431f0",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8605,8 +8821,8 @@
         "target_students": null,
         "id": "a082430203a34618c7025145",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8632,8 +8848,8 @@
         "target_students": null,
         "id": "a1bfc3d512b8c36c6a223893",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8659,8 +8875,8 @@
         "target_students": null,
         "id": "b872c80975c2dc80ef5c69d3",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -8686,8 +8902,8 @@
         "target_students": null,
         "id": "c5ca41db8942a9a8e1c9d89f",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -8713,8 +8929,8 @@
         "target_students": null,
         "id": "c6d08fc62150f21295a30abd",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -8740,8 +8956,8 @@
         "target_students": null,
         "id": "07b71ed86d1883aede95e7d3",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -8767,8 +8983,8 @@
         "target_students": null,
         "id": "0f2e0573af10f058132ffe60",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -8794,8 +9010,8 @@
         "target_students": null,
         "id": "a507f24d5765d0d1bf401531",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -8821,8 +9037,8 @@
         "target_students": null,
         "id": "e1da38e8c6d27692822dcf86",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -8848,8 +9064,8 @@
         "target_students": null,
         "id": "67d8c6d87871d061603fd6a0",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -8875,8 +9091,8 @@
         "target_students": null,
         "id": "71fee08c8044749d54276b6c",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -8902,8 +9118,8 @@
         "target_students": null,
         "id": "e5fc8ea4eb606b875749a47c",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -8929,8 +9145,8 @@
         "target_students": null,
         "id": "b363c6aeda35405f699ec67d",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -8956,8 +9172,8 @@
         "target_students": null,
         "id": "fe031a73a766738e9722176e",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -8983,8 +9199,8 @@
         "target_students": null,
         "id": "1992e76e3ba3150ccae93398",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -9010,8 +9226,8 @@
         "target_students": null,
         "id": "5500ae7bcaf21a1ba1d28c31",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -9037,8 +9253,8 @@
         "target_students": null,
         "id": "705daac460ec46dd8aec726a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -9064,8 +9280,8 @@
         "target_students": null,
         "id": "0762de46eadcb8e0d07f017e",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -9091,8 +9307,8 @@
         "target_students": null,
         "id": "8ad04cdfc982f98f7523ee2f",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -9118,8 +9334,8 @@
         "target_students": null,
         "id": "aa7ae2ee2699a15dab0948fd",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -9145,8 +9361,8 @@
         "target_students": null,
         "id": "0cf14fab3f5cdf4fc383bfec",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -9172,8 +9388,8 @@
         "target_students": null,
         "id": "4477d76572f055cf927fcbc4",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -9199,8 +9415,8 @@
         "target_students": null,
         "id": "92e50ad44b3ca5d13c0bc3cf",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -9226,8 +9442,8 @@
         "target_students": null,
         "id": "75951691a18f73547d3ac315",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -9253,8 +9469,197 @@
         "target_students": null,
         "id": "363033132c02048a493e45bc",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "上海电气风电集团股份有限公司",
+        "company_name": null,
+        "venue": "嘉定校区-同心楼124",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=40280386259be9db0125d349de7e001b;xjhbh=92920ff4c22945418f2df6f3c88c43c9#/xjhxq",
+        "source_event_id": "ff:92920ff4c22945418f2df6f3c88c43c9",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "56ed1fb654088e08cdedafd4",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "格雷博智能动力科技有限公司",
+        "company_name": null,
+        "venue": "嘉定校区-艺嘉楼210",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=4fce73d3237d4e1e8663460d47552bc2;xjhbh=0413c02735dc4514a174be258e3a22ee#/xjhxq",
+        "source_event_id": "ff:0413c02735dc4514a174be258e3a22ee",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "6f2659268b298015f2a8bc2b",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "中国电气装备集团有限公司",
+        "company_name": null,
+        "venue": "学生中心D200多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/237546964080791552",
+        "source_event_id": "sjtu:237546964080791552",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "0dbe6a520e12ebce078ea88c",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "欧莱雅（中国）有限公司",
+        "company_name": null,
+        "venue": "图信大楼8楼多功能厅(闵行东川路800号校园内)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/239684795364413440",
+        "source_event_id": "sjtu:239684795364413440",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "2d982a892c6cdd2956abfd73",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "远景动力技术（江苏）有限公司",
+        "company_name": null,
+        "venue": "学术活动中心演讲厅(闵行东川路800号校园内)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/237546169419567104",
+        "source_event_id": "sjtu:237546169419567104",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "487be3b55305b4957ba74545",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "江南造船（集团）有限责任公司",
+        "company_name": null,
+        "venue": "学生中心C202多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/240812076401037312",
+        "source_event_id": "sjtu:240812076401037312",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "a529596a2b9835d13d1220ae",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "携程计算机技术（上海）有限公司",
+        "company_name": null,
+        "venue": "学生中心C204多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/235795330074021888",
+        "source_event_id": "sjtu:235795330074021888",
+        "event_mode": "线下",
+        "event_date": "2026-09-28",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "c7a0abbd829c50c5649c0571",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -9280,8 +9685,8 @@
         "target_students": null,
         "id": "c87431e365806c420e2c3546",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -9307,8 +9712,8 @@
         "target_students": null,
         "id": "f7222636c9804f60022c5287",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -9334,8 +9739,8 @@
         "target_students": null,
         "id": "9587c51181032d7a207e2d62",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -9361,8 +9766,8 @@
         "target_students": null,
         "id": "fbeec430676bf5c77f028e60",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -9388,8 +9793,8 @@
         "target_students": null,
         "id": "933e023533b7db0bfea71725",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -9415,8 +9820,8 @@
         "target_students": null,
         "id": "e9bb21b223980a6179f85b5a",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -9442,8 +9847,8 @@
         "target_students": null,
         "id": "3fb3919418187a69e70031e6",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -9469,8 +9874,8 @@
         "target_students": null,
         "id": "85b037b450ef4982358d1989",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -9496,8 +9901,8 @@
         "target_students": null,
         "id": "ea42dace992cbff69d29e509",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -9523,8 +9928,8 @@
         "target_students": null,
         "id": "66a0f8fde8129df86978e0c9",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -9550,8 +9955,8 @@
         "target_students": null,
         "id": "ea0e68ddbba768984326889a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -9577,8 +9982,8 @@
         "target_students": null,
         "id": "6e0561bd9136e869501f73de",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -9604,8 +10009,8 @@
         "target_students": null,
         "id": "40f0dbe4d90588ce2f8e3516",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -9631,8 +10036,8 @@
         "target_students": null,
         "id": "56f5e398c00e2b08d58b8ca4",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -9658,8 +10063,8 @@
         "target_students": null,
         "id": "de0b0d87caec126f0cebd08d",
         "first_seen_at": "2026-09-26T14:43:28+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -9685,8 +10090,8 @@
         "target_students": null,
         "id": "8696dfe0493d303f301b4aa6",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -9712,8 +10117,8 @@
         "target_students": null,
         "id": "c47a3cfe31458c7f30e00c2e",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -9766,8 +10171,8 @@
         "target_students": null,
         "id": "2206ef9b825889f6ac9dcf9f",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010590",
@@ -9793,8 +10198,8 @@
         "target_students": null,
         "id": "129cff2aa1c5d3df4dacb913",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -9820,8 +10225,8 @@
         "target_students": null,
         "id": "6c2b502b2441f64e523ae78b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -9847,8 +10252,8 @@
         "target_students": null,
         "id": "9e6fc30de24b459403b8fc20",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010564",
@@ -9874,8 +10279,8 @@
         "target_students": null,
         "id": "229a0b6be8306af565674f31",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010718",
@@ -9901,8 +10306,8 @@
         "target_students": null,
         "id": "1190401cfc90a36e4c4cf74b",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010423",
@@ -9928,8 +10333,8 @@
         "target_students": "全职",
         "id": "9528ed5fdda4abc82872d644",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -9955,8 +10360,8 @@
         "target_students": null,
         "id": "0d28b9bad96b0566fbe0bc03",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -9982,8 +10387,8 @@
         "target_students": null,
         "id": "239e75e57ce9d18d013cab6f",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -10009,8 +10414,8 @@
         "target_students": null,
         "id": "2d409c8485487ff7f805fe9b",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -10036,8 +10441,8 @@
         "target_students": null,
         "id": "6ca34e20c85ae83388e1ba5a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -10063,8 +10468,8 @@
         "target_students": null,
         "id": "dd4c5744e2d197227ea8bedb",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -10090,8 +10495,35 @@
         "target_students": null,
         "id": "a740e74c9a1d7afd6c5d83bd",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "上海浦东人才发展有限公司",
+        "company_name": null,
+        "venue": "学生中心D200多功能厅(上海市闵行区东川路800号学生中心大楼)",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/237908252782891008",
+        "source_event_id": "sjtu:237908252782891008",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "09:30",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "6f06f5a59377090fd97d3659",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -10117,8 +10549,8 @@
         "target_students": null,
         "id": "5ac1a3244707d808552e6bca",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -10144,8 +10576,8 @@
         "target_students": null,
         "id": "738d2e538d6cb7b21ea3255f",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -10171,8 +10603,8 @@
         "target_students": null,
         "id": "6bf95a30b9c7b1be26f04843",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -10198,8 +10630,8 @@
         "target_students": null,
         "id": "70defefa65aaf457bec21ae2",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -10225,8 +10657,8 @@
         "target_students": null,
         "id": "8dc65a82f8b29249148fd122",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -10252,8 +10684,8 @@
         "target_students": null,
         "id": "ecd28f73cd86c8d9f018fc95",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -10279,8 +10711,8 @@
         "target_students": null,
         "id": "a5d27a08cb909e3048bedb19",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -10306,8 +10738,8 @@
         "target_students": null,
         "id": "02c7dda3e34233ba96525aa8",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -10333,8 +10765,8 @@
         "target_students": null,
         "id": "e216235471d55be3975d3d27",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -10360,8 +10792,8 @@
         "target_students": null,
         "id": "2716e4cff1a7ff12697a9ae2",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -10387,8 +10819,8 @@
         "target_students": null,
         "id": "484855efc34b956563f6f33a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -10414,8 +10846,8 @@
         "target_students": null,
         "id": "127bb7e65475abfd6ea57525",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -10441,8 +10873,8 @@
         "target_students": null,
         "id": "7fc844484eae077f33c59a38",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -10468,8 +10900,8 @@
         "target_students": null,
         "id": "a9f3b705c64e525d0ce962f9",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010559",
@@ -10495,8 +10927,8 @@
         "target_students": null,
         "id": "a64a193df0c77a3b2f78a095",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -10522,8 +10954,35 @@
         "target_students": null,
         "id": "af296985ebac530cab062d8d",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "“百万青年聚金陵·百校巡回招引”上海站—同济大学专场推介会",
+        "company_name": null,
+        "venue": "四平校区-经纬楼三楼演讲厅",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=f16699dd191a43beaceaf2666762479e;xjhbh=5B08F99749263E48E0631F84A8C0D69C#/xjhxq",
+        "source_event_id": "ff:5B08F99749263E48E0631F84A8C0D69C",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "13:30",
+        "end_time": "14:10",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "c9cc1177bb0fbd6373d0a363",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010423",
@@ -10549,8 +11008,8 @@
         "target_students": "全职",
         "id": "40c4e48e4eaf618093baef4a",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -10576,8 +11035,8 @@
         "target_students": null,
         "id": "649953ccae840b6a8b56976c",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -10603,8 +11062,8 @@
         "target_students": null,
         "id": "5213b74d09346083ab5c8031",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -10630,8 +11089,35 @@
         "target_students": null,
         "id": "f60e12729746e95daaafe00a",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "“百万青年聚金陵·百校巡回招引”上海站—同济大学专场双选会",
+        "company_name": null,
+        "venue": "四平校区-经纬楼一楼多功能厅",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=f16699dd191a43beaceaf2666762479e;xjhbh=5B08F4AF03F73E41E0631F84A8C0C2B7#/xjhxq",
+        "source_event_id": "ff:5B08F4AF03F73E41E0631F84A8C0C2B7",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": "16:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "7cb57c8df9dfa5dbc0697ac8",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010285",
@@ -10657,8 +11143,8 @@
         "target_students": null,
         "id": "5d60f92e753be9a84d318846",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010287",
@@ -10684,8 +11170,8 @@
         "target_students": null,
         "id": "1d21453a8732f241e9619a16",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -10711,8 +11197,8 @@
         "target_students": null,
         "id": "9616d8c452b13ee3109e74c8",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -10738,8 +11224,8 @@
         "target_students": null,
         "id": "bbba5f640883c5fc3933298d",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -10765,8 +11251,8 @@
         "target_students": null,
         "id": "bf4a5812a0554ca277a7f647",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -10792,8 +11278,8 @@
         "target_students": null,
         "id": "a0b541e95f9a5940cb5a7057",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010307",
@@ -10819,8 +11305,8 @@
         "target_students": null,
         "id": "cf5108574efcea184c33b3dc",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010319",
@@ -10846,8 +11332,8 @@
         "target_students": null,
         "id": "b6e10c9af2656eebd5ebc1f3",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -10873,8 +11359,8 @@
         "target_students": null,
         "id": "78c903c807f35b1ea14d1259",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -10900,8 +11386,8 @@
         "target_students": null,
         "id": "ab9603fa1f27f3c4dd5be71a",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -10927,8 +11413,8 @@
         "target_students": null,
         "id": "f2fa08759937ab66d226e2bb",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -10954,8 +11440,8 @@
         "target_students": null,
         "id": "0f5621fc8ab88978fbe8a320",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -10981,8 +11467,8 @@
         "target_students": null,
         "id": "cc0b3596eba9d7c89dd966c2",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -11008,8 +11494,35 @@
         "target_students": null,
         "id": "b0acd52fb65a21f79083c4e5",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4142010504",
+        "school_name": "华中农业大学",
+        "province": "湖北省",
+        "city": "武汉市",
+        "region": "华中",
+        "title": "武汉精臣智慧标识科技有限公司",
+        "company_name": null,
+        "venue": "大学生活动中心113",
+        "source_url": "https://hzau.91wllm.cn/teachin/view/id/251193",
+        "source_event_id": "teachin:251193",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "1ec33d95eb886a38ac680c8c",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -11035,8 +11548,8 @@
         "target_students": null,
         "id": "38fe1bf7cc7d9926ab38423d",
         "first_seen_at": "2026-09-26T14:43:28+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -11062,8 +11575,8 @@
         "target_students": null,
         "id": "47c930fdce0af932ba662753",
         "first_seen_at": "2026-09-26T14:43:28+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -11089,8 +11602,35 @@
         "target_students": null,
         "id": "909fb9d769a4f49dc0db9a90",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4142010504",
+        "school_name": "华中农业大学",
+        "province": "湖北省",
+        "city": "武汉市",
+        "region": "华中",
+        "title": "姚品国际2027届校园招聘空中宣讲会",
+        "company_name": null,
+        "venue": "线上宣讲",
+        "source_url": "https://hzau.91wllm.cn/teachin/view/id/249926",
+        "source_event_id": "teachin:249926",
+        "event_mode": "线上",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": "14:40",
+        "published_at": null,
+        "event_type": "空中宣讲",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "ebb6737c1276deeba543a98c",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -11116,8 +11656,8 @@
         "target_students": null,
         "id": "8f3625cfa87c276d0540f469",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -11143,8 +11683,8 @@
         "target_students": null,
         "id": "f8c8f47428b8f91efcd6aed6",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -11170,8 +11710,8 @@
         "target_students": null,
         "id": "db4cbc5cdcaedcce31c2ad01",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010590",
@@ -11197,8 +11737,8 @@
         "target_students": null,
         "id": "9f8098a52a12d9b3ed3c5328",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -11224,8 +11764,8 @@
         "target_students": null,
         "id": "7d5cab4c88c50d5c7c1dd532",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -11251,8 +11791,8 @@
         "target_students": null,
         "id": "91e3c9b92f984174f9209622",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -11278,8 +11818,8 @@
         "target_students": null,
         "id": "a2f07a82f07c9c2c8ca50d32",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -11305,8 +11845,8 @@
         "target_students": null,
         "id": "ab4dfe993372a352e9f303f5",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -11332,8 +11872,8 @@
         "target_students": null,
         "id": "d92843d0737a92a63150bafd",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -11359,8 +11899,8 @@
         "target_students": null,
         "id": "dca36b573d25e22168395f99",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -11386,8 +11926,8 @@
         "target_students": null,
         "id": "722cbe27b6cfa01e1d24513e",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -11413,8 +11953,8 @@
         "target_students": null,
         "id": "950892b8dfc81d9a121b14ff",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -11440,8 +11980,35 @@
         "target_students": null,
         "id": "ea44c4b19894a5299cb6472f",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "苏州科达科技股份有限公司",
+        "company_name": null,
+        "venue": "四平校区-大学生活动中心205会议室",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=0tj1fzw7-j4b5-mqjn-frt3-soq846w4njsj;xjhbh=c71133ea9ac649c0ba0d64829702d1ff#/xjhxq",
+        "source_event_id": "ff:c71133ea9ac649c0ba0d64829702d1ff",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "9ac5047ef2782ccc2f7854f7",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -11467,8 +12034,8 @@
         "target_students": null,
         "id": "5c7ec9e7e458cb17c79d571d",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -11494,8 +12061,8 @@
         "target_students": null,
         "id": "232b00a6bd3da33e99a6bf02",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -11521,8 +12088,8 @@
         "target_students": null,
         "id": "6b616956dc25b35803b6e3c8",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -11548,8 +12115,8 @@
         "target_students": null,
         "id": "3130b8fa6b693647c0fdee00",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -11575,8 +12142,8 @@
         "target_students": null,
         "id": "6e0488092abf1159f242749f",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -11602,8 +12169,8 @@
         "target_students": null,
         "id": "0a3286edccdc97f8bf31d516",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -11629,8 +12196,8 @@
         "target_students": null,
         "id": "a465cb8b934ba1da60a517df",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -11656,8 +12223,8 @@
         "target_students": null,
         "id": "0364f7e2e3108a6efa4c5a9a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -11683,8 +12250,8 @@
         "target_students": null,
         "id": "66cfa8a4fafcddc5430f832a",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -11710,8 +12277,8 @@
         "target_students": null,
         "id": "ef30b70075476e57245b1786",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -11737,8 +12304,8 @@
         "target_students": null,
         "id": "813041124ca00f6c473ae5de",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -11764,8 +12331,8 @@
         "target_students": null,
         "id": "e101cdcc561aa25426a8fed3",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -11791,8 +12358,8 @@
         "target_students": null,
         "id": "138db6faea25dc8b45fe6fea",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010559",
@@ -11818,8 +12385,8 @@
         "target_students": null,
         "id": "391515d372a48fff68772d03",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010559",
@@ -11845,8 +12412,8 @@
         "target_students": null,
         "id": "463c9335d35af5b9bb9d146d",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -11872,8 +12439,8 @@
         "target_students": null,
         "id": "f8b7c7075d0f7261449ca79e",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010718",
@@ -11899,8 +12466,8 @@
         "target_students": null,
         "id": "c7aa30729d6db160f9bdb7cd",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -11926,8 +12493,8 @@
         "target_students": null,
         "id": "13aedfd1268dc1c0690eaeae",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -11953,8 +12520,8 @@
         "target_students": null,
         "id": "52a580ed050b933ea8070395",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -11980,8 +12547,8 @@
         "target_students": null,
         "id": "1f5a9a86b075ca265fa3ac2e",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -12007,8 +12574,8 @@
         "target_students": null,
         "id": "b1eab43827f131ae41e0bf5a",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -12034,8 +12601,8 @@
         "target_students": null,
         "id": "d6b329fd4b84d420f3ac02e5",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -12061,8 +12628,8 @@
         "target_students": null,
         "id": "e4edf56a8d9c1f135f9ae86a",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -12088,8 +12655,8 @@
         "target_students": null,
         "id": "3f0a864d6151ba4cf5c99d86",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -12115,8 +12682,8 @@
         "target_students": null,
         "id": "9f4c2ea8e9bca6a1abdf0f2c",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010574",
@@ -12142,8 +12709,8 @@
         "target_students": null,
         "id": "29a22acf3cd8ac42ff1ddcb9",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -12169,8 +12736,8 @@
         "target_students": null,
         "id": "7420604952f2839078747c53",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -12196,8 +12763,8 @@
         "target_students": null,
         "id": "26ad38d5a77520e622c34fed",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -12223,8 +12790,8 @@
         "target_students": null,
         "id": "310b685ba7507c26feea1b1c",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4152010657",
@@ -12250,8 +12817,8 @@
         "target_students": null,
         "id": "5c5b8c8791a2c3b012b440d2",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -12277,8 +12844,8 @@
         "target_students": null,
         "id": "bbb1ff9545bb33d31e82b7e9",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -12304,8 +12871,8 @@
         "target_students": null,
         "id": "08e97678e3252de4062c401b",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010007",
@@ -12331,8 +12898,8 @@
         "target_students": null,
         "id": "609b139c6ce139ace97d1449",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -12358,8 +12925,8 @@
         "target_students": null,
         "id": "61ff25d98a406dba2785ce2c",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -12385,8 +12952,8 @@
         "target_students": null,
         "id": "bf1f1c1cbcc041111f9ab4ce",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -12412,8 +12979,8 @@
         "target_students": null,
         "id": "229da2a5a1db2e5303e1f025",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4161010718",
@@ -12439,8 +13006,8 @@
         "target_students": null,
         "id": "d4f72b2372ca3f24892617c4",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -12466,8 +13033,8 @@
         "target_students": null,
         "id": "4d32ba8b362345e1cef03a19",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -12493,8 +13060,8 @@
         "target_students": null,
         "id": "76f0e489156fef907dda79a0",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -12520,8 +13087,8 @@
         "target_students": null,
         "id": "2ad026fb0f1a2eccfbfcb223",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -12547,8 +13114,8 @@
         "target_students": null,
         "id": "086892f92b06f75b6daaad9d",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -12574,8 +13141,8 @@
         "target_students": null,
         "id": "fa0c657bc70f95ce7b244294",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161010701",
@@ -12601,8 +13168,8 @@
         "target_students": null,
         "id": "356f890db65a77e554f16729",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4161011664",
@@ -12628,8 +13195,62 @@
         "target_students": null,
         "id": "baa5dbbc0768c445e4299e1e",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "中国建筑第三工程局有限公司",
+        "company_name": null,
+        "venue": "四平校区-经纬楼三楼演讲厅",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=34626;xjhbh=e506a49c5cf74209aa60adb6f7cc21ed#/xjhxq",
+        "source_event_id": "ff:e506a49c5cf74209aa60adb6f7cc21ed",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "204f19af309ad3b9e15fda47",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010247",
+        "school_name": "同济大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "北京理想汽车有限公司",
+        "company_name": null,
+        "venue": "嘉定校区-济人楼312",
+        "source_url": "https://tjjyzx.tongji.edu.cn/jyfw/sys/jypubapp/*default/index.do?type=xjhxq;dwdm=1376636d96c94b4c950b000ce9d519bb;xjhbh=5A61EEC9FE995C45E0631F84A8C04AC8#/xjhxq",
+        "source_event_id": "ff:5A61EEC9FE995C45E0631F84A8C04AC8",
+        "event_mode": "线下",
+        "event_date": "2026-09-29",
+        "event_end_date": null,
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "73ebc10e03ac0e59a948c951",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -12655,8 +13276,8 @@
         "target_students": null,
         "id": "2b09c277931d818e9f36c7c5",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4136010403",
@@ -12682,8 +13303,8 @@
         "target_students": null,
         "id": "e035bce17d14e8eb0f64ac3d",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4123010224",
@@ -12709,8 +13330,8 @@
         "target_students": null,
         "id": "59b93f6d7ac65be735e1f1e7",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -12736,8 +13357,8 @@
         "target_students": null,
         "id": "aeef1445f51788a0e3a88c52",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010294",
@@ -12763,8 +13384,8 @@
         "target_students": null,
         "id": "39f300965d016d0a01b32519",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4133010336",
@@ -12790,8 +13411,8 @@
         "target_students": null,
         "id": "3614edf5c0c93d70230036d1",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -12817,8 +13438,8 @@
         "target_students": null,
         "id": "278530048781d5c7b18ff81b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4137010422",
@@ -12844,8 +13465,8 @@
         "target_students": null,
         "id": "9b97193c9d8890fb81bfb78c",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4132010288",
@@ -12871,8 +13492,8 @@
         "target_students": null,
         "id": "577155cfa460ee31d7dcdb83",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -12898,8 +13519,8 @@
         "target_students": null,
         "id": "0a140aef47a195f5ca049db5",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -12925,8 +13546,8 @@
         "target_students": null,
         "id": "1cc7f8b72beb3bd2a590f59d",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -12952,8 +13573,8 @@
         "target_students": null,
         "id": "a9d330367bc8503fad19d761",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -12979,8 +13600,8 @@
         "target_students": null,
         "id": "00b94130bf183587ddeed85a",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -13006,8 +13627,8 @@
         "target_students": null,
         "id": "6512e0a182a719c806be02f9",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -13033,8 +13654,8 @@
         "target_students": null,
         "id": "735d25af78645272513a761b",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -13060,8 +13681,8 @@
         "target_students": null,
         "id": "e011583eb21e5cf77620a854",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -13087,8 +13708,8 @@
         "target_students": null,
         "id": "844dc502a65f92316530f96e",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -13114,8 +13735,8 @@
         "target_students": null,
         "id": "b2ce5b878e41d3f93d0c6a77",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144014325",
@@ -13141,8 +13762,8 @@
         "target_students": null,
         "id": "a45b0f15f90c81f8c76be5f1",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010002",
@@ -13168,8 +13789,8 @@
         "target_students": null,
         "id": "61da360154e25c6448b1813e",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -13195,8 +13816,8 @@
         "target_students": null,
         "id": "ba28ffbb431663b26654ee4a",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -13222,8 +13843,8 @@
         "target_students": null,
         "id": "c2074a1097b80cd97c646bd0",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -13249,8 +13870,8 @@
         "target_students": null,
         "id": "b7d66eac5c9da74678b8f7dd",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144010558",
@@ -13276,8 +13897,8 @@
         "target_students": null,
         "id": "3d5a506092dbc4f43fd01d6d",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4123010224",
@@ -13303,8 +13924,8 @@
         "target_students": null,
         "id": "c33a9b300eff96649c3928e3",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -13330,8 +13951,8 @@
         "target_students": null,
         "id": "64ad14e2ba179d71b2812187",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -13357,8 +13978,8 @@
         "target_students": null,
         "id": "b8b9c174a51d19bd90accc89",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -13384,8 +14005,8 @@
         "target_students": null,
         "id": "278390ddb2c4510adf515880",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4150010635",
@@ -13411,8 +14032,8 @@
         "target_students": null,
         "id": "67f3cc78dc7874b7f92370bf",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4151010615",
@@ -13438,8 +14059,8 @@
         "target_students": null,
         "id": "78ba8f39e2fed4f3951a98d8",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010536",
@@ -13465,8 +14086,8 @@
         "target_students": null,
         "id": "c16c0b9e695723e49058496e",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4151010615",
@@ -13492,8 +14113,35 @@
         "target_students": null,
         "id": "6db483e67b39bd3885009747",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
+      },
+      {
+        "school_id": "cn-4131010248",
+        "school_name": "上海交通大学",
+        "province": "上海市",
+        "city": "上海市",
+        "region": "华东",
+        "title": "魔形智能科技（上海）有限公司",
+        "company_name": null,
+        "venue": "暂无",
+        "source_url": "https://www.job.sjtu.edu.cn/career/xjhxx/view/234628430291931136",
+        "source_event_id": "sjtu:234628430291931136",
+        "event_mode": "线下",
+        "event_date": "2026-09-30",
+        "event_end_date": null,
+        "start_time": "14:00",
+        "end_time": null,
+        "published_at": null,
+        "event_type": "宣讲会",
+        "positions": null,
+        "majors": null,
+        "education_requirement": null,
+        "target_students": null,
+        "id": "057914674668155f9f73070a",
+        "first_seen_at": "2026-09-27T19:29:32+08:00",
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4141010459",
@@ -13519,8 +14167,8 @@
         "target_students": null,
         "id": "ff1150dea9dc1549da974842",
         "first_seen_at": "2026-09-26T15:09:05+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -13546,8 +14194,8 @@
         "target_students": null,
         "id": "3778aaae440a27484608c82b",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010532",
@@ -13573,8 +14221,8 @@
         "target_students": null,
         "id": "a363148553c2fe88663dc773",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4143010533",
@@ -13600,8 +14248,8 @@
         "target_students": null,
         "id": "09949beb88ccee4c5095e3d2",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4144014325",
@@ -13627,8 +14275,8 @@
         "target_students": null,
         "id": "3a00cbd77a1a5ce9dc43194a",
         "first_seen_at": "2026-09-24T08:32:06+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4111010006",
@@ -13654,8 +14302,8 @@
         "target_students": null,
         "id": "2251821374cc938539935037",
         "first_seen_at": "2026-09-27T18:52:57+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010491",
@@ -13681,8 +14329,8 @@
         "target_students": null,
         "id": "4e233e30bf175138f93cd993",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4142010504",
@@ -13708,8 +14356,8 @@
         "target_students": null,
         "id": "e3acd095c9f06708c164e29f",
         "first_seen_at": "2026-09-26T14:43:28+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       },
       {
         "school_id": "cn-4150010611",
@@ -13735,8 +14383,8 @@
         "target_students": null,
         "id": "64b96d940a3a4a2c909a3719",
         "first_seen_at": "2026-09-27T16:42:35+08:00",
-        "last_seen_at": "2026-09-27T18:52:57+08:00",
-        "crawled_at": "2026-09-27T18:52:57+08:00"
+        "last_seen_at": "2026-09-27T19:29:32+08:00",
+        "crawled_at": "2026-09-27T19:29:32+08:00"
       },
       {
         "school_id": "cn-4134010359",
@@ -13762,22 +14410,22 @@
         "target_students": null,
         "id": "fa0ecf02514e91bca82e1312",
         "first_seen_at": "2026-09-24T22:04:03+08:00",
-        "last_seen_at": "2026-09-27T18:56:14+08:00",
-        "crawled_at": "2026-09-27T18:56:14+08:00"
+        "last_seen_at": "2026-09-27T19:32:37+08:00",
+        "crawled_at": "2026-09-27T19:32:37+08:00"
       }
     ]
   },
   "source_health": {
     "schema_version": 1,
     "timezone": "Asia/Shanghai",
-    "run_id": "20260927T185614-88c8cc58",
-    "started_at": "2026-09-27T18:56:14+08:00",
-    "finished_at": "2026-09-27T18:57:55+08:00",
+    "run_id": "20260927T193237-a5d8d1f4",
+    "started_at": "2026-09-27T19:32:37+08:00",
+    "finished_at": "2026-09-27T19:34:27+08:00",
     "coverage": {
       "navigation_total": 165,
-      "crawler_target_total": 37,
-      "crawler_active_total": 35,
-      "crawler_success_total": 35
+      "crawler_target_total": 39,
+      "crawler_active_total": 37,
+      "crawler_success_total": 37
     },
     "collection_scope": "有界公开列表：云就业最多4页；才立方各1页；正方最多3页。未承诺学校全站完整覆盖。",
     "sources": [
@@ -13792,8 +14440,8 @@
       {
         "school_id": "cn-4111010002",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 2,
         "last_error": null,
         "requests_made": 1
@@ -13825,8 +14473,8 @@
       {
         "school_id": "cn-4111010006",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 9,
         "last_error": null,
         "requests_made": 2
@@ -13834,8 +14482,8 @@
       {
         "school_id": "cn-4111010007",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 12,
         "last_error": null,
         "requests_made": 2
@@ -14091,8 +14739,8 @@
       {
         "school_id": "cn-4123010224",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 2,
         "last_error": null,
         "requests_made": 1
@@ -14115,19 +14763,21 @@
       },
       {
         "school_id": "cn-4131010247",
-        "status": "pending",
-        "last_attempt_at": null,
-        "last_success_at": null,
-        "records_found": 0,
-        "last_error": null
+        "status": "success",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
+        "records_found": 12,
+        "last_error": null,
+        "requests_made": 2
       },
       {
         "school_id": "cn-4131010248",
-        "status": "pending",
-        "last_attempt_at": null,
-        "last_success_at": null,
-        "records_found": 0,
-        "last_error": null
+        "status": "success",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
+        "records_found": 9,
+        "last_error": null,
+        "requests_made": 1
       },
       {
         "school_id": "cn-4131010251",
@@ -14196,8 +14846,8 @@
       {
         "school_id": "cn-4132010285",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 6
@@ -14205,8 +14855,8 @@
       {
         "school_id": "cn-4132010286",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 0,
         "last_error": null,
         "requests_made": 2
@@ -14214,8 +14864,8 @@
       {
         "school_id": "cn-4132010287",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 6
@@ -14223,8 +14873,8 @@
       {
         "school_id": "cn-4132010288",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 18,
         "last_error": null,
         "requests_made": 6
@@ -14240,8 +14890,8 @@
       {
         "school_id": "cn-4132010294",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 10,
         "last_error": null,
         "requests_made": 6
@@ -14257,8 +14907,8 @@
       {
         "school_id": "cn-4132010307",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 5
@@ -14274,8 +14924,8 @@
       {
         "school_id": "cn-4132010319",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 4
@@ -14307,8 +14957,8 @@
       {
         "school_id": "cn-4134010359",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 22,
         "last_error": null,
         "requests_made": 1
@@ -14332,8 +14982,8 @@
       {
         "school_id": "cn-4136010403",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 10,
         "last_error": null,
         "requests_made": 1
@@ -14341,8 +14991,8 @@
       {
         "school_id": "cn-4137010422",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 13,
         "last_error": null,
         "requests_made": 2
@@ -14350,8 +15000,8 @@
       {
         "school_id": "cn-4137010423",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 2,
         "last_error": null,
         "requests_made": 8
@@ -14367,8 +15017,8 @@
       {
         "school_id": "cn-4141010459",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 12,
         "last_error": null,
         "requests_made": 29
@@ -14392,8 +15042,8 @@
       {
         "school_id": "cn-4142010491",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 7,
         "last_error": null,
         "requests_made": 26
@@ -14409,8 +15059,8 @@
       {
         "school_id": "cn-4142010504",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 7,
         "last_error": null,
         "requests_made": 23
@@ -14434,8 +15084,8 @@
       {
         "school_id": "cn-4143010532",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 25,
         "last_error": null,
         "requests_made": 1
@@ -14443,8 +15093,8 @@
       {
         "school_id": "cn-4143010533",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 15,
         "last_error": null,
         "requests_made": 25
@@ -14452,8 +15102,8 @@
       {
         "school_id": "cn-4143010542",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 3,
         "last_error": null,
         "requests_made": 2
@@ -14469,8 +15119,8 @@
       {
         "school_id": "cn-4144010558",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 9,
         "last_error": null,
         "requests_made": 31
@@ -14478,8 +15128,8 @@
       {
         "school_id": "cn-4144010559",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 6,
         "last_error": null,
         "requests_made": 25
@@ -14495,8 +15145,8 @@
       {
         "school_id": "cn-4144010574",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 1
@@ -14560,26 +15210,26 @@
       {
         "school_id": "cn-4150010611",
         "status": "failed",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:52:57+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:29:32+08:00",
         "records_found": 0,
-        "last_error": "ConnectTimeout: HTTPSConnectionPool(host='cqu.cqbys.com', port=443): Max retries exceeded with url: /teachin (Caused by ConnectTimeoutError(<HTTPSConnection(host='cqu.cqbys.com', port=443) at 0x7f99cb824e60>, 'Connection to cqu.cqbys.com timed out. (connect timeout=8)'))",
+        "last_error": "ConnectTimeout: HTTPSConnectionPool(host='cqu.cqbys.com', port=443): Max retries exceeded with url: /teachin (Caused by ConnectTimeoutError(<HTTPSConnection(host='cqu.cqbys.com', port=443) at 0x7f63c8612570>, 'Connection to cqu.cqbys.com timed out. (connect timeout=8)'))",
         "requests_made": 1
       },
       {
         "school_id": "cn-4150010635",
         "status": "failed",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:52:57+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:29:32+08:00",
         "records_found": 0,
-        "last_error": "ConnectTimeout: HTTPSConnectionPool(host='swu.cqbys.com', port=443): Max retries exceeded with url: /teachin (Caused by ConnectTimeoutError(<HTTPSConnection(host='swu.cqbys.com', port=443) at 0x7f99cb8c0650>, 'Connection to swu.cqbys.com timed out. (connect timeout=8)'))",
+        "last_error": "ConnectTimeout: HTTPSConnectionPool(host='swu.cqbys.com', port=443): Max retries exceeded with url: /teachin (Caused by ConnectTimeoutError(<HTTPSConnection(host='swu.cqbys.com', port=443) at 0x7f63c42ef950>, 'Connection to swu.cqbys.com timed out. (connect timeout=8)'))",
         "requests_made": 1
       },
       {
         "school_id": "cn-4152010657",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 8,
         "last_error": null,
         "requests_made": 1
@@ -14587,8 +15237,8 @@
       {
         "school_id": "cn-4153010673",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 2,
         "last_error": null,
         "requests_made": 1
@@ -14628,8 +15278,8 @@
       {
         "school_id": "cn-4161010701",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 9,
         "last_error": null,
         "requests_made": 22
@@ -14653,8 +15303,8 @@
       {
         "school_id": "cn-4161010718",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 4,
         "last_error": null,
         "requests_made": 1
@@ -14910,8 +15560,8 @@
       {
         "school_id": "cn-4144010564",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 1
@@ -14935,8 +15585,8 @@
       {
         "school_id": "cn-4151010615",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 4,
         "last_error": null,
         "requests_made": 1
@@ -14968,8 +15618,8 @@
       {
         "school_id": "cn-4144014325",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 2,
         "last_error": null,
         "requests_made": 1
@@ -15049,8 +15699,8 @@
       {
         "school_id": "cn-4133010336",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 7,
         "last_error": null,
         "requests_made": 25
@@ -15074,8 +15724,8 @@
       {
         "school_id": "cn-4144010590",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 3,
         "last_error": null,
         "requests_made": 9
@@ -15091,8 +15741,8 @@
       {
         "school_id": "cn-4143010536",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 14,
         "last_error": null,
         "requests_made": 1
@@ -15100,8 +15750,8 @@
       {
         "school_id": "cn-4161011664",
         "status": "success",
-        "last_attempt_at": "2026-09-27T18:56:14+08:00",
-        "last_success_at": "2026-09-27T18:56:14+08:00",
+        "last_attempt_at": "2026-09-27T19:32:37+08:00",
+        "last_success_at": "2026-09-27T19:32:37+08:00",
         "records_found": 1,
         "last_error": null,
         "requests_made": 1
